@@ -45,8 +45,7 @@ this.captain = captain;
 }
 
 }
-
-                                                        main file-
+main file-
 
 package com.capg;
 import java.util.Scanner;
