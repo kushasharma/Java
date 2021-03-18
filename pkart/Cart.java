@@ -2,26 +2,26 @@ package com.model.ekart;
 
 public class Cart {
 	
- int custId;
+ int customerId;
  String productName;
  float price;
- int qty;
+ int qantity;
  
  public Cart() {
 	 
  }
-public Cart(int custId, String productName, float price, int qty) {
+public Cart(int customerId, String productName, float price, int qantity) {
 	super();
-	this.custId = custId;
+	this.customerId = customerId;
 	this.productName = productName;
 	this.price = price;
-	this.qty = qty;
+	this.qantity = quantity;
 }
-public int getCustId() {
-	return custId;
+public int getCustomerId() {
+	return customerId;
 }
-public void setCustId(int custId) {
-	this.custId = custId;
+public void setCustomerId(int customerId) {
+	this.customerId = customerId;
 }
 public String getProductName() {
 	return productName;
@@ -35,17 +35,15 @@ public float getPrice() {
 public void setPrice(float price) {
 	this.price = price;
 }
-public int getQty() {
-	return qty;
+public int getQantty() {
+	return qantity;
 }
-public void setQty(int qty) {
-	this.qty = qty;
+public void setQantity(int quantity) {
+	this.quantity = quantity;
 }
 @Override
 public String toString() {
-	return "Cart [CustId=" + getCustId() + ", ProductName=" + getProductName() + ", Price=" + getPrice()
-			+ ", Qty=" + getQty() + "]";
+	return "Cart [CustId=" + getCustomerId() + ", ProductName=" + getProductName() + ", Price=" + getPrice()
+			+ ", Qty=" + getQuantity() + "]";
 }
-
-
 }
